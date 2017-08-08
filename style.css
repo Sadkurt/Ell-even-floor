@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#ingame_display {
+	display: grid;
+	grid-template-columns: 1fr 100px;
+	grid-template-rows: 1fr 100px;
+	width: 100vw;
+    height: 100vh;
+}
+
+#gameplay {
+	grid-column: 1;
+	grid-row:1;
+	background-color: #F00;
+}
+
+#text {
+	grid-column: 1;
+	grid-row:2;
+	background-color: #0F0;
+}
+
+#menu {
+	grid-column: 2;
+	grid-row:1;
+	background-color: #00F;
+}
+
+#status{
+	grid-column: 2;
+	grid-row:2;
+	background-color: #000;
+}
